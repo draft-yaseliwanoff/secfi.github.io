@@ -1,0 +1,244 @@
+@media (min-width: 1025px) {
+    .header__wrapper-right-menu-tabled-phone {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        overflow: hidden;
+        max-width: 720px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header__wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .header__wrapper-left .header__nav, .header__wrapper-right {
+        display: none;
+    }
+
+    .block__details {
+        display: none;
+    }
+
+    .startup-image {
+        padding-inline: 10px;
+    }
+
+    .startup-image img {
+        max-width: 800px;
+        width: 100%;
+    }
+
+    .options__wrapper {
+        flex-wrap: wrap !important;
+    }
+
+    .collect {
+        width: 48% !important;
+        height: 450px !important;
+    }
+
+    .footer__link, .footer__social-link {
+        font-size: 20px !important;
+    }
+
+    .footer__columns {
+        flex-direction: column;
+    }
+
+    .footer__wrapper {
+        flex-direction: column;
+    }
+
+    .footer__title {
+        font-size: 25px !important;
+    }
+
+    .footer__image {
+        padding-inline: 20px !important;
+    }
+
+    .footer__image img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .work__wrapper {
+        padding-top: 40px;
+        flex-direction: column;
+    }
+
+    .work__wrapper-right {
+        padding-top: 25px !important;
+    }
+
+    .cash__wrapper {
+        padding-top: 40px;
+        flex-direction: column;
+    }
+
+    .cash__wrapper-left {
+        padding-top: 25px !important;
+    }
+
+    .cash__wrapper-left {
+        order: 1;
+    }
+
+    .cash__wrapper-right {
+        order: 0;
+        padding-top: 40px !important;
+    }
+
+    .grow_wrapper {
+        flex-direction: column;
+    }
+
+    .grow__wrapper-right {
+        padding-top: 40px !important;
+    }
+
+    .grow__wrapper-left {
+        padding-top: 40px;
+    }
+
+    .secfi__wrapper {
+        justify-content: space-around;
+    }
+
+    .secfi__wrapper-right .block .block-title {
+        max-width: 230px;
+        width: 100%;
+    }
+
+    .secfi__wrapper-right .block .block-description p {
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .balance {
+        margin-top: 50px !important;
+    }
+
+    .balance__wrapper {
+        flex-direction: column !important;
+    }
+
+    .balance__wrapper-left {
+        order: 1;
+    }
+
+    .balance__wrapper-right {
+        order: 0;
+    }
+
+    .balance__wrapper {
+        padding-top: 40px !important;
+    }
+
+    .balance__text-title {
+        margin-top: 25px !important;
+    }
+    
+    .collect-text h4 {
+        font-size: 18px !important;
+        line-height: 22px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .hero__wrapper {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 100% !important;
+    }
+
+    .text p {
+
+        margin: 0 auto !important;
+        font-size: 15px !important;
+    }
+
+    .startup-description p {
+        width: 300px !important;
+        line-height: 145%;
+    }
+
+    .startup-text {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    p {
+        --text-description: 18px
+    }
+
+    button {
+        --text-button: 18px;
+    }
+
+    .secfi__text-title {
+        font-size: 15px !important;
+    }
+
+    .secfi__wrapper {
+        flex-direction: column;
+    }
+
+    .secfi__wrapper-right {
+        padding-top: 40px;
+    }
+
+    .secfi__wrapper-right .block .block-description p {
+        font-size: 17px !important;
+        line-height: 140%;
+    }
+
+    .secfi__text-footer span {
+        font-size: 15px !important;
+    }
+
+    .balance__wrapper-left {
+        padding-top: 25px;
+    }
+
+    .clients__text span {
+        font-size: 15px !important;
+    }
+
+    .clients__text h4 {
+        text-align: center;
+        width: 250px;
+    }
+
+    .options__wrapper {
+        flex-direction: column;
+    }
+
+    .collect {
+        width: 100% !important;
+        height: 500px !important;
+    }
+
+    .collect-text h4 {
+        font-size: 24px !important;
+    }
+
+    .footer__columns {
+        flex-direction: column;
+    }
+}
